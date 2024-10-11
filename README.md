@@ -6,7 +6,6 @@
 
 * В папке [data](data) находятся тренировочные и тестовые данные;
 * В папке [notebooks](notebooks) находятся 2 варианта решения задачи: [с помощью CatBoost](notebooks/solution_cb.ipynb) и [с помощью Bert](notebooks/solution-bert.ipynb).
-* В папке [weights](weights) расположены веса для соответствующих решений [CatBoost](weigths/vcb_weights.npy) и [Bert](weights/bert_weights.pt)
 
 **Результаты соревнования**
 - скор CatBoost public: 0.3772
@@ -62,4 +61,6 @@
 ```optimizer = torch.optim.Adam()```
 
 ```scheduler = get_cosine_schedule_with_warmup()``` из библиотеки ```transformers```
+
+Веса обучкнных моделей сохранены на kaggle (https://www.kaggle.com/datasets/markovka/weights-of-cb-and-bert-model-for-ecom-t-x-dls)
 
