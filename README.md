@@ -14,6 +14,14 @@
 
 > Использовалась метрика accuracy по полному совпадению меток классов.
 
+_____
+
+Датасет на [kaggle](https://www.kaggle.com/datasets/markovka/dataset-for-ecom-t-and-dls-workshop)
+--
+Веса моделей на [kaggle](https://www.kaggle.com/datasets/markovka/weights-of-cb-and-bert-model-for-ecom-t-x-dls)
+--
+_____
+
 ## Описание решения
 ### Исходные данные
 В качестве тренировочных данных предлагались отзывы пользователей сервиса.
@@ -21,7 +29,7 @@
 - 'tags' - теги выбранные пользователем ('PROMOTIONS','DELIVERY', 'PRODUCTS_QUALITY', 'SUPPORT', 'PAYMENT','PRICE', 'CATALOG_NAVIGATION', 'ASSORTMENT') 
 - 'text' - текст отзыва
 
-Предсказывать было нужно принадлежность отзыва к одному из 50 трендов:
+Предсказывать было нужно принадлежность отзыва к 50 трендам:
 - trand_id_res{i} - принадлежность отзва к i-тому тренду (i=0...49)
 
 ### Предобработка
@@ -61,6 +69,3 @@
 ```optimizer = torch.optim.Adam()```
 
 ```scheduler = get_cosine_schedule_with_warmup()``` из библиотеки ```transformers```
-
-Веса обучкнных моделей сохранены на kaggle (https://www.kaggle.com/datasets/markovka/weights-of-cb-and-bert-model-for-ecom-t-x-dls)
-
