@@ -19,9 +19,9 @@ ps: Использовалась метрика accuracy по полному с�
 _____
 
 Датасет на [kaggle](https://www.kaggle.com/datasets/markovka/dataset-for-ecom-t-and-dls-workshop)
---
+
 Веса моделей на [kaggle](https://www.kaggle.com/datasets/markovka/weights-of-cb-and-bert-model-for-ecom-t-x-dls)
---
+
 _____
 
 ## Описание решения
