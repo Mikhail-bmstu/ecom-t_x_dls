@@ -1,8 +1,8 @@
-# ecom.tech and DLS NLP competition (top 23)
+# ecom.tech and DLS NLP competition (top 20)
 
 Решение задачи множественной классификации текстов для автоматизации исследования обратной связи пользователей Самоката.
 
-Ссылка на соревнование (https://ods.ai/competitions/dls_ecomtech)
+Соревнование на платформе ODS (https://ods.ai/competitions/dls_ecomtech)
 
 **Структура проекта**
 
@@ -12,7 +12,9 @@
 **Результаты соревнования**
 - скор CatBoost public: 0.3772
 - скор Bert public: 0.4931
-- скор Bert private: 0.4954 (top 23)
+- скор Bert private: 0.4954 (top 23, top 20 после код ревью)
+
+![](lb_ecom.png)
 
 ps: Использовалась метрика accuracy по полному совпадению меток классов.
 
